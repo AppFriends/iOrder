@@ -2,11 +2,21 @@
 <!-- Se o atributo "ng-strict-di" está presente no elemento app, o injector será criado no modo "strict-di". Isto significa que a aplicação vai dar erro ao invicar funções que não utilizam anotação explícita (e são, portanto, inadequadas para mimificação), conforme descrito no guia de Injeção de Dependência, isso trará informações de depuração úteis, o que ajudará a rastrear a raiz bugs de DI. -->
 <html ng-app="oluduro" ng-strict-di>
 	<head>
-		<title>oluduro</title>
+		<title>Oluduro</title>
+		<!-- Import materialize.css -->
+		<link type="text/css" rel="stylesheet" href="lib/Materialize/dist/css/materialize.css"  media="screen,projection"/>
+	
+		<!-- Let browser know website is optimized for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
 		<script type="text/javascript" src="lib/angular/angular.js"></script>
 	</head>
 	<body>
 		<h1>Projeto oluduro</h1>
+		<!--Import jQuery before materialize.js-->
+      	<script type="text/javascript" src="lib/dist/jquery/dist/jquery.js"></script>      	
+		<script type="text/javascript" src="lib/Materialize/dist/js/materialize.js"></script>
+	  
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>
