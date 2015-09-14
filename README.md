@@ -4,4 +4,12 @@ Partindo desde principio de personalização
 
 ## Tecnologias
 
-## Frameworks
+* **Front-end**
+  - Gulp (http://gulpjs.com/)
+  - Material design lite (http://www.getmdl.io/);
+  - AngularJs (https://angularjs.org/)
+
+* **Back-end**
+	- MeanJs (http://meanjs.org/)
+
+* **Mock (https://www.mockable.io)**
