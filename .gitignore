@@ -1,0 +1,4 @@
+*/app/lib
+node_modules
+.editorconfig
+.sublime*

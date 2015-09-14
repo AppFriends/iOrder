@@ -11,8 +11,8 @@
 	var browserSync = require('browser-sync').create();
 
 	// Definimos o diretorio dos arquivos para evitar repetição futuramente
-	var arquivosJs = "./app/*.js";
-	var arquivosHtml = "./app/*.html"
+	var arquivosJs = "./*/app/*.js";
+	var arquivosHtml = "./*/app/*.html"
 
 	//Aqui criamos uma nova tarefa através do ´gulp.task´ e damos a ela o nome 'lint'
 	gulp.task('lint', function() {
@@ -50,7 +50,7 @@
 
 	    browserSync.init({
 	        server: {
-	            baseDir: "./app"
+	            baseDir: "./frontend/app"
 	        }
 	    });
 	});
