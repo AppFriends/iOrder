@@ -13,3 +13,40 @@ Partindo desde principio de personalização
 	- MeanJs (http://meanjs.org/)
 
 * **Mock (https://www.mockable.io)**
+
+## Outros
+
+- Acessos:
+    - Cliente
+	- Garçom
+	- Cozinha
+	- Administrador
+
+- Cliente
+	- Cliente necessita de aprovação.
+	- Cadastro único para todas as empresas
+
+- Atendimento
+	- Esquema de fila
+	- Status do pedido
+	- Previsão de entrega
+	- Pedido precisa de aprovação do garçom
+ 
+
+- Fluxos
+
+	# O cliente:
+		- Loga no sistema
+		- Fazer o check-in
+		- Faz o pedido
+		- Acompanha o status do pedido
+		- Confirma recebimento
+		- Confere conta * Opção de separar a conta (por quantidade e por itens)
+		- Efetuar pagamento
+		- Confere pontuação ganha (cartão fidelidade) 
+
+	# O garçom
+		- Anota pedido ou aprova pedido
+		- Acompanha o status do pedido
+		- Efetuar pagamento
+
