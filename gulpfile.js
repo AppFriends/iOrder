@@ -1,4 +1,4 @@
-(function () {
+(function (angular) {
 
 	'use strict';
 
@@ -50,9 +50,9 @@
 
 	    browserSync.init({
 	        server: {
-	            baseDir: "./frontend/app"
+	            baseDir: "./frontend"
 	        }
 	    });
 	});
 
-})();
+})(angular);
