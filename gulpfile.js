@@ -37,12 +37,8 @@
   });
 
   //Criamos uma tarefa 'default' que vai rodar quando rodamos `gulp` no projeto
-  gulp.task('default', function() {
-    // Usamos o `gulp.run` para rodar as tarefas
-    // E usamos o `gulp.watch` para o Gulp esperar mudanças nos arquivos para rodar novamente
-    gulp.run('lint');
-    gulp.run('serve');
-  });
+  //passamos um array com as tarefas que a default depende
+  gulp.task('default', ['lint','serve']);
 
   // Tarefa que levanta um servidor para exbição do projeto
   gulp.task('serve', function() {
