@@ -50,3 +50,18 @@ Partindo desde principio de personalização
 		- Acompanha o status do pedido
 		- Efetuar pagamento
 
+### Próximos passos
+
+1 - Criar o layout base
+2 - Check-in
+3 - Cardapio
+4 - Pedido
+5 - Login
+
+### Definições
+
+Angular material
+angular 1.4
+
+
+
