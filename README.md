@@ -52,11 +52,11 @@ Partindo desde principio de personalização
 
 ### Próximos passos
 
-1 - Criar o layout base
-2 - Check-in
-3 - Cardapio
-4 - Pedido
-5 - Login
+1. Criar o layout base
+2. Check-in
+3. Cardapio
+4. Pedido
+5. Login
 
 ### Definições
 
